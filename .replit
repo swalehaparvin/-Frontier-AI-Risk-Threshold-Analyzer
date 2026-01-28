@@ -16,3 +16,7 @@ deploymentTarget = "cloudrun"
 
 [agent]
 expertMode = true
+
+[[ports]]
+localPort = 8501
+externalPort = 80

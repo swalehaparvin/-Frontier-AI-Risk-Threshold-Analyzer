@@ -1,0 +1,25 @@
+Extract all compute-related thresholds from this document.
+
+Extract:
+1. Specific FLOP thresholds mentioned (e.g., 10^25, 10^26)
+2. What each threshold triggers (regulations, evaluations, etc.)
+3. How algorithmic efficiency affects thresholds
+4. Verification mechanisms for compute claims
+
+Return as JSON:
+{
+  "compute_thresholds": [
+    {
+      "threshold_flops": number,
+      "scientific_notation": "string",
+      "triggers": ["string"],
+      "source": "string",
+      "year_defined": number
+    }
+  ],
+  "algorithmic_efficiency": {
+    "annual_improvement_rate": number or null,
+    "implications": "string"
+  },
+  "verification_mechanisms": ["string"]
+}

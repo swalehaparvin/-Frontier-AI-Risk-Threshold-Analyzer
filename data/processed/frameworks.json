@@ -1,0 +1,106 @@
+{
+  "frameworks": [
+    {
+      "organization": "Anthropic",
+      "framework_name": "Responsible Scaling Policy",
+      "version": "1.0",
+      "risk_tiers": [
+        {
+          "tier_name": "ASL-3",
+          "tier_level": 3,
+          "capability_threshold": "Models could meaningfully accelerate CBRN threats or demonstrate autonomous replication capabilities.",
+          "evaluation_requirements": [
+            "METR biological risk evaluations",
+            "METR cyber offense evaluations",
+            "Autonomous replication testing",
+            "Enhanced security controls"
+          ],
+          "deployment_restrictions": [
+            "No open-source release"
+          ],
+          "source_quote": "ASL-3 as the threshold where models could meaningfully accelerate CBRN (chemical, biological, radiological, nuclear) threats or demonstrate autonomous replication capabilities."
+        },
+        {
+          "tier_name": "ASL-2",
+          "tier_level": 2,
+          "capability_threshold": "Models with early signs of dangerous capabilities but cannot yet cause catastrophic harm.",
+          "evaluation_requirements": [
+            "Standard safety evaluations",
+            "Basic security controls"
+          ],
+          "deployment_restrictions": [],
+          "source_quote": "ASL-2 represents models with early signs of dangerous capabilities but cannot yet cause catastrophic harm."
+        }
+      ]
+    },
+    {
+      "organization": "Google DeepMind",
+      "framework_name": "Frontier Safety Framework",
+      "version": "1.0",
+      "risk_tiers": [
+        {
+          "tier_name": "CCL-3",
+          "tier_level": 3,
+          "capability_threshold": "Models with dangerous capabilities.",
+          "evaluation_requirements": [
+            "External red teaming",
+            "Enhanced access controls"
+          ],
+          "deployment_restrictions": [
+            "Restricted deployment"
+          ],
+          "source_quote": "CCL-3 represents models with dangerous capabilities requiring: External red teaming, Enhanced access controls, Restricted deployment."
+        },
+        {
+          "tier_name": "CCL-2",
+          "tier_level": 2,
+          "capability_threshold": "Early capability concerns.",
+          "evaluation_requirements": [
+            "Internal safety testing",
+            "Standard controls"
+          ],
+          "deployment_restrictions": [],
+          "source_quote": "CCL-2 covers early capability concerns with internal safety testing and standard controls."
+        }
+      ]
+    },
+    {
+      "organization": "EU",
+      "framework_name": "EU AI Act",
+      "version": "1.0",
+      "risk_tiers": [
+        {
+          "tier_name": "Systemic Risk GPAI",
+          "tier_level": 1,
+          "capability_threshold": "Models trained with compute exceeding 10^25 FLOPS.",
+          "evaluation_requirements": [
+            "Model evaluation and adversarial testing",
+            "Systemic risk assessment",
+            "Technical documentation",
+            "Cybersecurity measures",
+            "Incident reporting"
+          ],
+          "source_quote": "The EU AI Act defines systemic risk GPAI models as those trained with compute exceeding 10^25 FLOPS."
+        }
+      ]
+    },
+    {
+      "organization": "OpenAI",
+      "framework_name": "Preparedness Framework",
+      "version": "1.0",
+      "risk_tiers": [
+        {
+          "tier_name": "High",
+          "tier_level": 1,
+          "capability_threshold": "Models that could enable creation of novel biological threats or autonomous systems.",
+          "evaluation_requirements": [
+            "External red team assessments",
+            "Board-level approval for deployment",
+            "Enhanced security measures"
+          ],
+          "source_quote": "OpenAI's Preparedness Framework defines 'High' risk as models that could enable creation of novel biological threats or autonomous systems."
+        }
+      ]
+    }
+  ]
+}

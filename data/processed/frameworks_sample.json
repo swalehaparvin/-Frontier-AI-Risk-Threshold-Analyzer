@@ -1,0 +1,81 @@
+{
+  "frameworks": [
+    {
+      "organization": "Anthropic",
+      "framework_name": "Responsible Scaling Policy",
+      "version": "1.5",
+      "risk_tiers": [
+        {
+          "tier_name": "ASL-2",
+          "tier_level": 2,
+          "capability_threshold": "Model shows early signs of dangerous capabilities but cannot yet cause catastrophic harm",
+          "compute_threshold_flops": null,
+          "evaluation_requirements": ["Standard safety evals"],
+          "required_safeguards": ["Basic security controls"],
+          "deployment_restrictions": [],
+          "source_quote": "ASL-2 captures models with early warning signs"
+        },
+        {
+          "tier_name": "ASL-3",
+          "tier_level": 3,
+          "capability_threshold": "Model could meaningfully accelerate CBRN development or autonomous replication",
+          "compute_threshold_flops": null,
+          "evaluation_requirements": ["METR bio eval", "METR cyber eval", "Autonomy testing"],
+          "required_safeguards": ["Enhanced security", "Deployment restrictions", "Monitoring"],
+          "deployment_restrictions": ["Limited API access", "No open-source release"],
+          "source_quote": "ASL-3 represents models that pose meaningful catastrophic risk"
+        }
+      ]
+    },
+    {
+      "organization": "Google DeepMind",
+      "framework_name": "Frontier Safety Framework",
+      "version": "1.0",
+      "risk_tiers": [
+        {
+          "tier_name": "CCL-2",
+          "tier_level": 2,
+          "capability_threshold": "Early capability concerns",
+          "compute_threshold_flops": null,
+          "evaluation_requirements": ["Internal safety testing"],
+          "required_safeguards": ["Standard controls"],
+          "deployment_restrictions": []
+        },
+        {
+          "tier_name": "CCL-3",
+          "tier_level": 3,
+          "capability_threshold": "Critical capability level - model shows dangerous capabilities",
+          "compute_threshold_flops": null,
+          "evaluation_requirements": ["External red teaming", "Capability testing"],
+          "required_safeguards": ["Enhanced security", "Access controls"],
+          "deployment_restrictions": ["Restricted deployment"]
+        }
+      ]
+    },
+    {
+      "organization": "European Union",
+      "framework_name": "EU AI Act",
+      "version": "2024",
+      "risk_tiers": [
+        {
+          "tier_name": "High-risk GPAI",
+          "tier_level": 2,
+          "capability_threshold": "General-purpose AI model",
+          "compute_threshold_flops": 1e24,
+          "evaluation_requirements": ["Technical documentation", "Risk assessment"],
+          "required_safeguards": ["Transparency obligations"],
+          "deployment_restrictions": []
+        },
+        {
+          "tier_name": "Systemic risk GPAI",
+          "tier_level": 3,
+          "capability_threshold": "Model with systemic risk potential",
+          "compute_threshold_flops": 1e25,
+          "evaluation_requirements": ["Model evaluation", "Adversarial testing", "Systemic risk assessment"],
+          "required_safeguards": ["Cybersecurity measures", "Incident reporting", "Transparency"],
+          "deployment_restrictions": ["Article 51 compliance required"]
+        }
+      ]
+    }
+  ]
+}

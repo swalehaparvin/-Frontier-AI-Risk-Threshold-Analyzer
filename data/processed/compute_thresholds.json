@@ -1,0 +1,54 @@
+{
+  "compute_thresholds": [
+    {
+      "threshold_flops": 1e+25,
+      "scientific_notation": "10^25",
+      "triggers": [
+        "Systemic risk designation",
+        "enhanced monitoring",
+        "mandatory evaluations"
+      ],
+      "source": "EU AI Act Article 51",
+      "year_defined": 2024
+    },
+    {
+      "threshold_flops": 1e+26,
+      "scientific_notation": "10^26",
+      "triggers": [
+        "Extreme risk category",
+        "international coordination",
+        "export controls"
+      ],
+      "source": "IAEA-style international framework proposals",
+      "year_defined": 2025
+    },
+    {
+      "threshold_flops": 1e+24,
+      "scientific_notation": "10^24",
+      "triggers": [
+        "Enhanced documentation",
+        "basic safety testing"
+      ],
+      "source": "Various national frameworks",
+      "year_defined": 2023
+    }
+  ],
+  "algorithmic_efficiency": {
+    "annual_improvement_rate": 30,
+    "implications": "A model requiring 10^25 FLOPS in 2024 might need only 7\u00d710^24 FLOPS in 2025. Thresholds may need periodic adjustment to account for efficiency gains."
+  },
+  "verification_mechanisms": [
+    "On-chip governance mechanisms",
+    "Hardware-level compute tracking",
+    "Cryptographic attestation of training runs",
+    "Tamper-resistant logging",
+    "Datacenter monitoring",
+    "Third-party audits of training infrastructure",
+    "Energy consumption tracking as proxy",
+    "Network traffic analysis",
+    "Self-reporting with verification",
+    "Labs report compute usage",
+    "Spot checks by regulatory bodies",
+    "Penalties for misreporting"
+  ]
+}

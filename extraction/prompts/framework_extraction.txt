@@ -1,0 +1,38 @@
+Extract ALL risk thresholds and capability tiers from this AI safety framework document.
+
+For each organization mentioned, extract:
+1. Organization name
+2. Framework name (e.g., "Responsible Scaling Policy", "Frontier Safety Framework")
+3. Risk tiers/levels (e.g., ASL-1, ASL-2, ASL-3, CCL-1, CCL-2, etc.)
+
+For each risk tier, extract:
+4. Capability threshold definition (what makes a model reach this tier?)
+5. Compute threshold in FLOPS (if mentioned, otherwise null)
+6. Evaluation requirements (what tests must be run?)
+7. Required safeguards (what security/safety measures?)
+8. Deployment restrictions (if any)
+
+Return as JSON with this structure:
+{
+  "frameworks": [
+    {
+      "organization": "string",
+      "framework_name": "string",
+      "version": "string",
+      "risk_tiers": [
+        {
+          "tier_name": "string",
+          "tier_level": number,
+          "capability_threshold": "string",
+          "compute_threshold_flops": number or null,
+          "evaluation_requirements": ["string"],
+          "required_safeguards": ["string"],
+          "deployment_restrictions": ["string"],
+          "source_quote": "string"
+        }
+      ]
+    }
+  ]
+}
+
+Be precise and include direct quotes where possible.

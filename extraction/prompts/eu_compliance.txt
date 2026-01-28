@@ -1,0 +1,22 @@
+Extract EU AI Act compliance requirements from this document.
+
+Focus on:
+1. Compute thresholds that trigger regulations (e.g., 10^25 FLOPS)
+2. What defines "systemic risk" GPAI models
+3. Required evaluations and testing
+4. Documentation requirements
+5. Transparency obligations
+6. Prohibited uses
+
+Return as JSON:
+{
+  "eu_ai_act": {
+    "compute_threshold_flops": number,
+    "systemic_risk_definition": "string",
+    "required_evaluations": ["string"],
+    "documentation_requirements": ["string"],
+    "transparency_obligations": ["string"],
+    "prohibited_uses": ["string"],
+    "article_references": ["string"]
+  }
+}

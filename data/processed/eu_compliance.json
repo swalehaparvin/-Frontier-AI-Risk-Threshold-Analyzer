@@ -1,0 +1,35 @@
+{
+  "eu_ai_act": {
+    "compute_threshold_flops": 10000000000000000000000000,
+    "systemic_risk_definition": "Models that have the potential to cause systemic harm.",
+    "required_evaluations": [
+      "Adversarial testing to identify systemic risks",
+      "Model evaluation protocols",
+      "Safety assessment documentation",
+      "Evaluate potential for systemic harm",
+      "Document risk mitigation measures",
+      "Ongoing monitoring requirements"
+    ],
+    "documentation_requirements": [
+      "Technical documentation of model architecture",
+      "Training data description and provenance",
+      "Model card with detailed capability descriptions",
+      "Risk assessment reports"
+    ],
+    "transparency_obligations": [
+      "Publish summary of training data sources",
+      "Disclose total compute used in training",
+      "Make model card publicly available",
+      "Report serious incidents"
+    ],
+    "prohibited_uses": [
+      "Social scoring systems",
+      "Manipulation of human behavior",
+      "Exploitation of vulnerabilities",
+      "Real-time biometric identification in public spaces"
+    ],
+    "article_references": [
+      "Article 51"
+    ]
+  }
+}
