@@ -1,0 +1,98 @@
+Magic
+Blog
+Careers
+Safety
+Magic
+AGI Readiness Policy
+Version 1.0 — July 2, 2024
+Magic is building frontier-scale models and autonomous agents to automate software engineering and research. Building such systems, we believe, will bring enormous societal value. However, we also believe AI development poses the possibility of serious negative externalities on society, including catastrophic risks to public security and wellbeing.
+To prepare for these risks, we are introducing an initial version of our AGI Readiness Policy, describing dangerous AI capabilities we plan to monitor, as well as high-level safety and security practices we will adopt to reduce risk.
+Prior to publicly deploying models that exceed the current frontier of coding performance, we will evaluate them for dangerous capabilities and ensure that we have sufficient protective measures in place to continue development and deployment in a safe manner.
+Our commitments were created with assistance from METR, a nonprofit that focuses on risk assessment of AI systems. We plan to adapt our safety measures and commitments over time in line with empirical observation of risks posed by the systems that we are developing.
+Framework
+By the time that we deploy models that exceed the current frontier of coding capabilities, we commit to having implemented a full set of dangerous capability evaluations and planned mitigations for our Covered Threat Models (described below), as well as having executed our initial dangerous capability evaluations.
+Our process for determining whether our models have reached this frontier involves continuously monitoring our AI systems using public and private benchmarks. In this section, we focus on evaluations using coding benchmarks, as Magic’s models are optimized for code generation.
+Threshold Definition
+We compare our models’ capability to publicly available closed and open-source models, to determine whether our models are sufficiently capable such that there is a real risk of setting a new state-of-the-art in dangerous AI capabilities.
+A representative public benchmark we will use is LiveCodeBench, which aggregates problems from various competitive programming websites
+1
+. As of publishing, the best public models currently have the following scores (Pass@1 on Code Generation, evaluation timeframe: estimated knowledge cut-off date to latest LiveCodeBench evaluation set):
+Claude-3.5-Sonnet: 48.8% (04/01/2024 - 06/01/2024)
+GPT-4-Turbo-2024-04-09: 43.9% (05/01/2023 - 06/01/2024)
+GPT-4O-2024-05-13: 43.4% (11/01/2023 - 06/01/2024)
+GPT-4-Turbo-1106: 38.8% (05/01/2023 - 06/01/2024)
+DeepSeekCoder-V2: 38.1% (12/01/2023 - 06/01/2024)
+Based on these scores
+2
+, when, at the end of a training run, our models exceed a threshold of 50% accuracy on LiveCodeBench, we will trigger our commitment to incorporate a full system of dangerous capabilities evaluations and planned mitigations into our AGI Readiness Policy, prior to substantial further model development, or publicly deploying such models.
+As an alternative threshold definition, we will also make use of a set of private benchmarks that we use internally to assess our product’s level of software engineering capability. For comparison, we will also perform these evaluations on publicly available AI systems that are generally considered to be state-of-the-art. We will have privately specified thresholds such that if we see that our model performs significantly better than publicly available models, this is considered evidence that we may be breaking new ground in terms of AI systems’ dangerous capabilities. Reaching these thresholds on our private benchmarks will also trigger our commitments to develop our full AGI Readiness Policy, with threat model evaluations and mitigations, before substantial further model development or deployment.
+The expanded AGI Readiness Policy required by the above commitments will also specify more comprehensive guidelines for evaluation thresholds that apply during development and training, not just deployment, of future advanced models that cross certain eval thresholds.
+How We Will Update This Policy
+Equally as crucial as the technical aspects of developing evaluations and implementing mitigations are the oversight mechanisms that govern the execution of this policy itself. Thus, we commit to the following procedures:
+1. Activation of Threat Model–Specific Evaluations and Mitigations
+Magic’s engineering team, potentially in collaboration with external advisers, is responsible for conducting evaluations on the public and private coding benchmarks described above. If the engineering team sees evidence that our AI systems have exceeded the current performance thresholds on the public and private benchmarks listed above, the team is responsible for making this known immediately to the leadership team and Magic’s Board of Directors (BOD).
+We will then begin executing the dangerous capability evaluations we develop for our Covered Threat Models, and they will begin serving as triggers for more stringent information security measures and deployment mitigations. If we have not developed adequate dangerous capability evaluations by the time these benchmark thresholds are exceeded, we will halt further model development until our dangerous capability evaluations are ready.
+2. Reports to Governing Bodies
+A member of staff will be appointed who is responsible for sharing the following with our Board of Directors on a quarterly basis:
+A report on the status of the AGI Readiness Policy implementation
+Our AI systems’ current proficiency at the public and private benchmarks laid out above
+3. Updating Our Understanding
+Over time, public evidence may emerge that it is safe for models that have demonstrated proficiency beyond the above thresholds to freely proliferate without posing any significant catastrophic risk to public safety. For this reason, we may update this threshold upward over time. We may also modify the public and private benchmarks used.
+Such a change will require approval by our Board of Directors, with input from external security and AI safety advisers.
+Evaluations for Covered Threat Models
+We use the term
+threat models
+to refer to proposed mechanisms via which AI systems could cause a major catastrophe in the near future.
+An internal team will develop and execute evaluations that can provide early warnings of whether the AI systems we’ve built increase the risk from our Covered Threat Models. This team may include technical experts, security researchers, and relevant subject matter experts.
+In cases where said risk for any threat model passes a ‘red-line’, we will adopt safety measures outlined in the Threat Mitigations section, which include delaying or pausing development in the worst case until the dangerous capability detected has been mitigated or contained.
+We value making principled commitments that hold true over time, and that are based on the latest in model advancements and analyses of threat models, rather than speculations. Our initial commitments detail four Covered Threat Models, but we will iteratively improve these and may add more threat models as we learn more.
+Covered Threat Models
+Our current understanding suggests at least four threat models of concern as our AI systems become more capable: Cyberoffense, AI R&D, Autonomous Replication and Adaptation (ARA), and potentially Biological Weapons Assistance. Analogously, the
+White House Executive Order on AI
+lays out risks including “lowering the barrier to entry for the development, acquisition, and use of biological weapons by non-state actors; the discovery of software vulnerabilities and development of associated exploits; the use of software or tools to influence real or virtual events; [and] the possibility for self-replication or propagation”.
+We describe these threat models along with high-level, illustrative capability levels that would require strong mitigations. We commit to developing detailed dangerous capability evaluations for these threat models based on input from relevant experts, prior to deploying frontier coding models.
+Threat Model
+Critical Capability Threshold
+Cyberoffense
+The model is effective at real-world cyberoffense operations. With the model’s help, the cost of discovery of new zero-days or breaking critical infrastructure for a malicious expert actor is reduced by at least 10x; accessing classified and not previously accessible information from a major government; a talented Computer Science undergrad level malicious actor spending 3 months and $1m in compute has a substantial chance of breaking critical infrastructure.
+AI R&D
+The model facilitates a dramatic acceleration in the rate of effective compute scaling or can effectively replace high-level machine learning researchers. Such capabilities may enable it to contribute to the unsafe proliferation or enhancement of other dangerous AI capabilities.
+Autonomous Replication and Adaptation
+If given access to its own weights and prompted to do so, the AI model could autonomously maintain its own operation executing cybercrime and using the proceeds to create arbitrarily many replicas of itself.
+Biological Weapons Assistance
+The model provides expert-level guidance which increases the accessibility or severity of bioweapon development. With the model’s help, a non-expert malicious actor can synthesize a viable pandemic agent, or an expert can synthesize a novel biological threat.
+Threat Mitigations
+We outline two types of mitigations – information security measures and deployment mitigations – to safeguard models which demonstrate dangerous capabilities. Prior to deploying models with frontier coding capabilities, we will describe these mitigations in more detail. We will also define specific plans for what level of mitigations are necessary in response to a range of dangerous capability thresholds.
+Information Security Measures
+As we develop more capable models, it will become especially important to harden our security against attempts to extract our models’ weights and other resource-intensive outputs of our training process.
+The effectiveness of our deployment mitigations – like training models to refuse harmful requests, continuously monitoring a model’s outputs for misuse, and other proprietary interventions – is generally contingent on the models being securely in our possession. Accordingly, we will place particular emphasis on implementing information security measures.
+We will implement the following information security measures, based on recommendations in RAND’s Securing Artificial Intelligence Model Weights report
+3
+, if and when we observe evidence that our models are proficient at our Covered Threat Models.
+Hardening model weight and code security
+: implementing robust security controls to prevent unauthorized access to our model weights. These controls will make it extremely difficult for non-state actors, and eventually state-level actors, to steal our model weights.
+Internal compartmentalization
+: implementing strong access controls and strong authentication mechanisms to limit unauthorized access to LLM training environments, code, and parameters.
+Deployment Mitigations
+Deployment mitigations aim to disable dangerous capabilities of our models once detected. These mitigations will be required in order to make our models available for wide use, if the evaluations for our Covered Threat Models trigger.
+The following are two examples of deployment mitigations we might employ:
+Harm refusal
+: we will train our models to robustly refuse requests for aid in causing harm – for example, requests to generate cybersecurity exploits.
+Output monitoring
+: we may implement techniques such as output safety classifiers to prevent serious misuse of models. Automated detection may also apply for internal usage within Magic.
+A full set of mitigations will be detailed publicly by the time we complete our policy implementation, as described in this document’s introduction. Other categories of mitigations beyond the two illustrative examples listed above likely will be required.
+Footnotes
+One general challenge in accurately evaluating LLM capabilities is that LLMs may have seen problems and solutions during training. Since problems in LiveCodeBench are tagged temporally, we can filter to problems that are after the training cutoff date of the LLM. Problems are also tagged by difficulty.
+↩
+We plan to conduct evaluations using a subset of LiveCodeBench which only includes problems after the training cutoff of our models and public reference models. Scores may vary if we use a later subset of problems. We intend for the threshold to be slightly beyond the frontier of current LLM capabilities in coding as of May 2024.
+↩
+Securing Artificial Intelligence Model Weights
+↩
+Follow Magic on
+Vulnerability Disclosure
+AGI Readiness Policy
+Magic AI, Inc.
+Copyright ©
+2026
+All rights reserved.
+AGI Readiness Policy — Magic

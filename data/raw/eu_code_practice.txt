@@ -1,0 +1,187 @@
+AI Safety under the EU AI Code of Practice — A New Global Standard? | Center for Security and Emerging Technology
+Skip to main content
+Search
+Search
+Close
+Center for Security and Emerging Technology
+About
+About Us
+A policy research organization within Georgetown University’s Walsh School of Foreign Service, CSET provides decision-makers with data-driven analysis on the security implications of emerging technologies.
+Learn More About Us
+People
+Team
+Advisory Board
+Affiliates
+Alumni
+Students
+Careers
+Opportunities
+Initiatives
+Emerging Technology Observatory
+Foundational Research Grants
+CSET Forum
+Culture
+Life at CSET
+Contact Us
+Research Topics
+Research Topics
+CSET conducts in-depth research on the world’s most critical technological developments. Our data-driven approach provides decision-makers with actionable insights on the security implications of emerging technologies.
+View All Research Topics
+Applications
+Assessment
+Bio-Risk
+Compete
+CyberAI
+Data
+Peer Watch
+Regions
+Supply Chains
+Workforce
+Publications
+Publications
+CSET publishes rigorous, data-driven research on emerging technologies and their implications for national and global security. Through our written products — including reports, policy briefs, and other expert commentary — we provide policymakers and the public with actionable insights on critical issues at the intersection of technology, security, and policy.
+View All Publications
+Reports
+Blog
+Data Snapshots
+policy.ai
+Data Visualizations
+Translations
+News & Events
+News & Events
+CSET hosts regular webinars and in-person events with leading experts, prominent policymakers, and experienced developers.
+Subscribe for News & Events
+News
+Events
+Featured Article
+The AI Cold War That Will Redefine Everything
+November 10, 2025
+CSET’s Helen Toner shared her expert analysis in an article published by The Wall Street Journal. The article discusses China’s accelerated push to compete with the U.S. in generative artificial intelligence.
+Donate
+Subscribe
+Search
+CSET
+AI Safety under the EU AI Code of Practice — A New Global Standard?
+Mia Hoffmann
+July 30, 2025
+To protect Europeans from the risks posed by artificial intelligence, the EU passed its AI Act last year. This month, the EU released a Code of Practice to help providers of general purpose AI comply with the AI Act. This blog reviews the measures set out in the new Code’s safety and security chapter, assesses how they compare to existing practices, and what the Code’s global impact might be.
+With the development and deployment of increasingly powerful AI models has come a growing awareness of the risks they might pose. As governments around the world grapple with how to ensure AI technologies remain safe, secure, and beneficial, the European Union enacted an ambitious and comprehensive regulatory framework for AI last year: the
+EU AI Act
+.
+Among other things, the EU AI Act requires developers of the most advanced AI models to mitigate risks stemming from their models. To facilitate compliance, the European Commission released a voluntary
+Code of Practice
+earlier this month designed to provide operational guidance and detail how developers can comply with transparency, copyright, and safety obligations.
+This article focuses on the Safety and Security chapter of that Code of Practice, which represents the clearest articulation to date of how the EU expects frontier AI developers to test and secure their models against a range of foreseeable harms, and—as a minimum standard of practice—may be an indication of the norms and practices that shape global expectations for frontier AI governance.
+How to Comply with the AI Act: the New Code of Practice
+On July 10, the European Commission released the three chapters of the
+Code of Practice for General Purpose AI
+. The Code is a voluntary tool designed to help industry comply with the AI Act’s rules for general purpose AI (GPAI) models—in particular articles 53 and 55 of the regulation—which will come into effect on August 2, 2025. Providers of GPAI models, defined as those models whose training compute is above 10^23 floating-point operations, must meet transparency obligations and comply with EU copyright law. Providers of models deemed to pose systemic risks, currently defined as models trained with more than 10^25 FLOPs, must furthermore ensure that their models are safe and secure. Many well-known large language models such as GPT-4, Gemini 1.5 Pro, Grok 3, and Claude 3.7 Sonnet
+fall
+into the systemic risk category.
+However, the AI Act is relatively vague on how model providers should implement these requirements. For example, providers of the most advanced models must “assess and mitigate possible systemic risks”, but it is unclear what that means in practice. The three chapters of the Code—one for transparency, one for copyright, and one for safety and security—are meant to help by detailing processes and practices for compliance.
+While adherence to the Code is voluntary, the “presumption of conformity” it offers is a strong incentive for model providers to sign. Presumption of conformity means that EU regulators will assume that adherence to the Code demonstrates compliance with the AI Act. As such, signatories to the Code will benefit from a reduced administrative burden and increased legal certainty and trust compared to providers that prove compliance in other ways.
+The safety and security chapter of the Code is the most extensive among the three chapters. It primarily addresses the four obligations listed in Article 55(1) of the AI Act, which require providers of the most advanced models to:
+Perform model evaluations in order to identify and mitigate systemic risks
+Assess and mitigate possible systemic risks
+Track and report serious incidents
+Ensure the cyber and physical security of their models
+By defining processes and measures that implement these obligations, the safety and security chapter sets a minimum standard for appropriate risk management for frontier AI models that goes far beyond current industry practices. As such, it stands to meaningfully improve current AI safety, provided the Code is widely adopted.
+Grappling with AI Risk: The Safety and Security Chapter
+The safety and security chapter describes a comprehensive risk management process that must be implemented whenever major deployment decisions are made, for example, before releasing a new GPAI model with systemic risks in the EU market, or ahead of a significant update of an existing one. Providers must identify potential systemic risks of their model, analyze and evaluate them to gauge likelihood and severity, determine if the risk level is acceptable, and if not, implement mitigation strategies. This process must be repeated until models achieve an acceptable level of risk across all identified risks.
+Risk Identification
+The chapter outlines a structured approach to identifying potential systemic risks posed by AI models. It mandates that providers must always assess four “specified” risks:
+Chemical, biological, radiological, and nuclear (CBRN) threats
+Loss of control risk
+Cyber offense risk
+Potential for harmful manipulation
+Beyond these, providers are also expected to identify other systemic risks to public health, safety, and fundamental rights that their models might pose. To do so, providers must examine sources of risk beyond the model’s capabilities, such as model propensities (e.g., its tendency to hallucinate) and model affordances (e.g., the degree of human oversight). Finally, providers must develop risk scenarios that illustrate how each identified risk could materialize in real-world conditions.
+Risk Analysis
+Following the identification of potential systemic risks, providers must evaluate and analyze the risks in order to determine whether they are acceptable or not. This process involves collecting information about each risk from a range of sources such as scientific literature, analyses of training data, relevant incident databases, or expert and layperson interviews. In parallel, model providers must carry out state-of-the-art model evaluations targeting each identified risk, for example, through benchmarks, red teaming, and human uplift studies. Building on the risk scenarios from the previous step, providers need to engage in risk modeling to anticipate how specific scenarios might unfold once the model is deployed.
+Importantly, the risk analysis process is interconnected, meaning that the different steps feed into each other: findings from risk modeling should inform the design of model evaluations, and insights from post-market monitoring, including evaluations from independent experts when required, should be taken into account during analysis. The generated findings should then factor into providers’ risk estimation, that is, their assessment of the probability and severity of every identified systemic risk posed by their models.
+Assessment against Pre-Defined Risk Tiers
+Providers need to compare these risk estimates against predefined risk acceptance criteria. These risk tiers must be measurable and based on model capabilities, and—critically—are defined preemptively. While providers get to determine the level of risk they deem acceptable themselves—and risk tolerance might vary among stakeholders—the pre-defined criteria and acceptance thresholds ensure providers cannot adjust their level of tolerance flexibly ahead of deployment decisions.
+Only when all systemic risks are at acceptable levels are providers supposed to progress with the release of the model.
+Continuous Risk Management and Governance
+The chapter emphasizes the continuous nature of risk management throughout a model’s lifecycle. Providers commit to ongoing risk management via light-touch evaluations, continuous mitigation efforts, post-market monitoring, and incident tracking and reporting. These activities are supported by internal governance structures that assign clear responsibility for managing risks and ensure appropriate resources are available for those in charge.
+Beyond these formal structures, providers are also expected to foster a healthy risk culture in the organization, for example by periodically informing employees about the whistleblower protection policy, allowing internal challenges of decisions concerning systemic risk management, and committing to not retaliating against employees who disclose concerns about systemic risks to oversight authorities.
+Documentation and Transparency
+Two types of documentation are central to the chapter. First, providers must create and adopt a safety and security framework—an overarching document that explains how they implement the risk management measures set out in the chapter. Among other things, the framework must provide a high-level description of the risk assessment process and the measures that will be taken to bring systemic risks down to acceptable levels. The framework is also where providers must define acceptable risk levels that are used to make deployment decisions.
+Second, for each model, providers are expected to compile a safety and security model report that describes how their model complies with the framework. The report must include a detailed justification of why systemic risks stemming from the model were determined to be acceptable, supported by documentation of the risk identification, analysis, and mitigation process that was undertaken.
+Unfortunately, the chapter does not offer much transparency into signatories’ processes. Providers are only expected to publish summaries of their safety and security framework and model reports under limited conditions: when a model could pose more risk than other models already on the EU market, and even then only “if and insofar as necessary to assess and/or mitigate systemic risks.” This limited disclosure significantly reduces the extent of public scrutiny and evaluation of providers’ safety and security practices.
+A New Global Standard?
+Recent assessments of frontier AI companies’ risk management practices have found those processes to be lacking across most, if not all, providers. Acceptable risk thresholds appear to be
+almost universally undefined
+, leaving providers with substantial discretion over the level of risk they are willing to impose on society at the time they decide whether or not to deploy a model. It is easy to see how commercial interests might get in the way of caution.
+Providers also appear to be selective about the risks they choose to mitigate, with another
+report
+finding that less than half of reviewed firms “report substantive testing for dangerous capabilities linked to large-scale risks such as bio- or cyber-terrorism,” and even those evaluations appear to lack validity. This suggests that the measures described in the chapter are significantly more rigorous and comprehensive than current best practices.
+Whether or not the chapter will have a global effect depends on how the overall Code is received. On the one hand, the Code must be implemented at the model level, which raises the chances of global impact. Given the cost of training a GPAI model with more than 10^25 FLOPs, it is unlikely providers will develop different models for different jurisdictions just to avoid compliance with the AI Act for some of them. At the same time, adherence to the Code is voluntary, and providers might choose to develop their own frameworks and measures to comply with the AI Act, which could limit the role of the chapter as a global safety standard. Meta, for example, has already
+stated
+it will not sign the Code, while
+OpenAI
+,
+Google
+,
+Mistral AI
+, and
+Anthropic
+have voiced support.
+Regardless of providers’ support for the Code, it is worth pointing out that while adherence to the Code is voluntary, compliance with the AI Act is not. The Code—once formally approved by the AI Office and AI Board, and adopted via an implementing Act by the European Commission—is thus a useful signal for what level of depth, rigor, and comprehensiveness might be expected from providers who want to take different measures for compliance.
+Author
+Mia Hoffmann
+Originally Published
+July 30, 2025
+Topics
+Assessment
+Peer Watch
+Related Content
+Previous
+Next
+Blog
+The Finalized EU Artificial Intelligence Act: Implications and Insights
+August 2024
+The European Union's Artificial Intelligence Act has officially come into force today after more than five years of legislative processes and negotiations. While marking a significant milestone, it also initiates a prolonged phase of implementation,…
+Read More
+Blog
+The EU AI Act: A Primer
+September 2023
+The EU AI Act is nearing formal adoption and implementation. Read this blog post, with updated analysis following the December 2023 political agreement, by CSET’s resident EU expert and Research Fellow, Mia Hoffmann. Learn what…
+Read More
+The Center for Security and Emerging Technology within Georgetown University's Walsh School of Foreign Service provides decision-makers with data-driven analysis on the security implications of emerging technologies.
+About
+Research Topics
+Publications
+News & Events
+Careers
+Donate
+Sign up to receive our newsletter, research updates, and events.
+Subscribe
+General Inquiries
+cset@georgetown.edu
+Media Inquiries
+danny.hague@georgetown.edu
+Linkedin
+Twitter
+Youtube
+Github
+©2025 Center for Security and Emerging Technology. All Rights Reserved.
+Contact Us
+Policies
+This website uses cookies.
+To learn more, please review
+this policy
+. By continuing to browse the site, you agree to these terms.
+Okay
+Disable Cookies
+Privacy & Cookies Policy
+Close
+Privacy Overview
+This website uses cookies to improve your experience while you navigate through the website. Out of these cookies, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may have an effect on your browsing experience.
+Necessary
+Necessary
+Always Enabled
+Necessary cookies are absolutely essential for the website to function properly. This category only includes cookies that ensures basic functionalities and security features of the website. These cookies do not store any personal information.
+Non-necessary
+Non-necessary
+Any cookies that may not be particularly necessary for the website to function and is used specifically to collect user personal data via analytics, ads, other embedded contents are termed as non-necessary cookies. It is mandatory to procure user consent prior to running these cookies on your website.
+SAVE & ACCEPT

@@ -2,53 +2,43 @@
   "compute_thresholds": [
     {
       "threshold_flops": 1e+25,
-      "scientific_notation": "10^25",
+      "scientific_notation": "1e25",
       "triggers": [
-        "Systemic risk designation",
-        "enhanced monitoring",
-        "mandatory evaluations"
+        "reporting requirements",
+        "capability evaluations",
+        "incident monitoring"
       ],
-      "source": "EU AI Act Article 51",
+      "source": "EU AI Act",
       "year_defined": 2024
     },
     {
       "threshold_flops": 1e+26,
-      "scientific_notation": "10^26",
+      "scientific_notation": "1e26",
       "triggers": [
-        "Extreme risk category",
-        "international coordination",
-        "export controls"
+        "reporting requirements",
+        "capability evaluations",
+        "incident monitoring"
       ],
-      "source": "IAEA-style international framework proposals",
-      "year_defined": 2025
+      "source": "President Biden\u2019s Executive Order 14,110",
+      "year_defined": 2023
     },
     {
-      "threshold_flops": 1e+24,
-      "scientific_notation": "10^24",
+      "threshold_flops": 3e+25,
+      "scientific_notation": "3e25",
       "triggers": [
-        "Enhanced documentation",
-        "basic safety testing"
+        "considered a distinct covered model"
       ],
-      "source": "Various national frameworks",
-      "year_defined": 2023
+      "source": "California Senate Bill 1047",
+      "year_defined": 2024
     }
   ],
   "algorithmic_efficiency": {
-    "annual_improvement_rate": 30,
-    "implications": "A model requiring 10^25 FLOPS in 2024 might need only 7\u00d710^24 FLOPS in 2025. Thresholds may need periodic adjustment to account for efficiency gains."
+    "annual_improvement_rate": 0.5,
+    "implications": "Algorithmic innovation can significantly reduce the amount of compute needed to train advanced models, potentially affecting the relevance of established compute thresholds."
   },
   "verification_mechanisms": [
-    "On-chip governance mechanisms",
-    "Hardware-level compute tracking",
-    "Cryptographic attestation of training runs",
-    "Tamper-resistant logging",
-    "Datacenter monitoring",
-    "Third-party audits of training infrastructure",
-    "Energy consumption tracking as proxy",
-    "Network traffic analysis",
-    "Self-reporting with verification",
-    "Labs report compute usage",
-    "Spot checks by regulatory bodies",
-    "Penalties for misreporting"
+    "self-reporting by developers",
+    "monitoring and reporting requirements for compute usage",
+    "on-chip or hardware-enabled governance mechanisms"
   ]
 }

@@ -1,35 +1,24 @@
 {
   "eu_ai_act": {
     "compute_threshold_flops": 10000000000000000000000000,
-    "systemic_risk_definition": "Models that have the potential to cause systemic harm.",
+    "systemic_risk_definition": "Models trained with more than 10^25 FLOPs are deemed to pose systemic risks.",
     "required_evaluations": [
-      "Adversarial testing to identify systemic risks",
-      "Model evaluation protocols",
-      "Safety assessment documentation",
-      "Evaluate potential for systemic harm",
-      "Document risk mitigation measures",
-      "Ongoing monitoring requirements"
+      "Perform model evaluations to identify and mitigate systemic risks",
+      "Assess and mitigate possible systemic risks",
+      "Track and report serious incidents",
+      "Ensure the cyber and physical security of their models"
     ],
     "documentation_requirements": [
-      "Technical documentation of model architecture",
-      "Training data description and provenance",
-      "Model card with detailed capability descriptions",
-      "Risk assessment reports"
+      "Create and adopt a safety and security framework that explains risk management measures",
+      "Compile a safety and security model report for each model detailing compliance with the framework"
     ],
     "transparency_obligations": [
-      "Publish summary of training data sources",
-      "Disclose total compute used in training",
-      "Make model card publicly available",
-      "Report serious incidents"
+      "Publish summaries of safety and security framework and model reports under limited conditions"
     ],
-    "prohibited_uses": [
-      "Social scoring systems",
-      "Manipulation of human behavior",
-      "Exploitation of vulnerabilities",
-      "Real-time biometric identification in public spaces"
-    ],
+    "prohibited_uses": [],
     "article_references": [
-      "Article 51"
+      "Article 53",
+      "Article 55"
     ]
   }
 }

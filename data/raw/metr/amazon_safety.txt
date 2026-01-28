@@ -1,0 +1,427 @@
+Amazon’s frontier model safety framework - Amazon Science
+Close
+Close
+Research
+Research
+Research areas
+Automated reasoning
+Cloud and systems
+Computer vision
+Conversational AI
+Economics
+Information and knowledge management
+Machine learning
+Operations research and optimization
+Quantum technologies
+Robotics
+Search and information retrieval
+Security, privacy, and abuse prevention
+Sustainability
+Our scientific contributions
+Publications
+Research from our scientists and collaborators.
+Conferences
+Our experts present and discuss cutting-edge research at scientific meetings globally.
+Research areas
+Automated reasoning
+Cloud and systems
+Computer vision
+Conversational AI
+Economics
+Information and knowledge management
+Machine learning
+Operations research and optimization
+Quantum technologies
+Robotics
+Search and information retrieval
+Security, privacy, and abuse prevention
+Sustainability
+Our scientific contributions
+Publications
+Research from our scientists and collaborators.
+Conferences
+Our experts present and discuss cutting-edge research at scientific meetings globally.
+News & blog
+News & blog
+The latest from Amazon researchers
+Amazon Science Blog
+Technical deep-dives and perspectives from our scientists.
+News
+Research milestones and recent achievements.
+The latest from Amazon researchers
+Amazon Science Blog
+Technical deep-dives and perspectives from our scientists.
+News
+Research milestones and recent achievements.
+Collaborations
+Collaborations
+Amazon Research Awards
+Overview
+Call for proposals
+Latest news
+Research stories
+Recipients
+Amazon Nova AI Challenge
+Overview
+Rules
+FAQs
+Teams
+Research collaborations
+Overview
+Carnegie Mellon University
+Columbia University
+Hampton University
+Howard University
+IIT Bombay
+Johns Hopkins University
+Max Planck Society
+MIT
+Tennessee State University
+University of California, Los Angeles
+University of Illinois Urbana-Champaign
+University of Southern California
+University of Texas at Austin
+Virginia Tech
+University of Washington
+Amazon Research Awards
+Overview
+Call for proposals
+Latest news
+Research stories
+Recipients
+Amazon Nova AI Challenge
+Overview
+Rules
+FAQs
+Teams
+Research collaborations
+Overview
+Carnegie Mellon University
+Columbia University
+Hampton University
+Howard University
+IIT Bombay
+Johns Hopkins University
+Max Planck Society
+MIT
+Tennessee State University
+University of California, Los Angeles
+University of Illinois Urbana-Champaign
+University of Southern California
+University of Texas at Austin
+Virginia Tech
+University of Washington
+Resources
+Resources
+Code and datasets
+AGI Labs
+Meet the team building useful AI agents.
+Amazon Nova
+Try Amazon’s frontier foundation models.
+Code and datasets
+AGI Labs
+Meet the team building useful AI agents.
+Amazon Nova
+Try Amazon’s frontier foundation models.
+Careers
+Careers
+Careers
+Explore our open roles.
+Amazon Scholars
+Faculty research opportunities on industry-scale technical challenges.
+Postdoctoral Science Program
+Early-career research opportunities alongside experienced industry scientists.
+Careers
+Explore our open roles.
+Amazon Scholars
+Faculty research opportunities on industry-scale technical challenges.
+Postdoctoral Science Program
+Early-career research opportunities alongside experienced industry scientists.
+Social
+twitter
+instagram
+youtube
+facebook
+linkedin
+github
+rss
+Menu
+Research
+Research areas
+Automated reasoning
+Cloud and systems
+Computer vision
+Conversational AI
+Economics
+Information and knowledge management
+Machine learning
+Operations research and optimization
+Quantum technologies
+Robotics
+Search and information retrieval
+Security, privacy, and abuse prevention
+Sustainability
+Our scientific contributions
+Publications
+Research from our scientists and collaborators.
+Conferences
+Our experts present and discuss cutting-edge research at scientific meetings globally.
+Research areas
+Automated reasoning
+Cloud and systems
+Computer vision
+Conversational AI
+Economics
+Information and knowledge management
+Machine learning
+Operations research and optimization
+Quantum technologies
+Robotics
+Search and information retrieval
+Security, privacy, and abuse prevention
+Sustainability
+Our scientific contributions
+Publications
+Research from our scientists and collaborators.
+Conferences
+Our experts present and discuss cutting-edge research at scientific meetings globally.
+News & blog
+The latest from Amazon researchers
+Amazon Science Blog
+Technical deep-dives and perspectives from our scientists.
+News
+Research milestones and recent achievements.
+The latest from Amazon researchers
+Amazon Science Blog
+Technical deep-dives and perspectives from our scientists.
+News
+Research milestones and recent achievements.
+Collaborations
+Amazon Research Awards
+Overview
+Call for proposals
+Latest news
+Research stories
+Recipients
+Amazon Nova AI Challenge
+Overview
+Rules
+FAQs
+Teams
+Research collaborations
+Overview
+Carnegie Mellon University
+Columbia University
+Hampton University
+Howard University
+IIT Bombay
+Johns Hopkins University
+Max Planck Society
+MIT
+Tennessee State University
+University of California, Los Angeles
+University of Illinois Urbana-Champaign
+University of Southern California
+University of Texas at Austin
+Virginia Tech
+University of Washington
+Amazon Research Awards
+Overview
+Call for proposals
+Latest news
+Research stories
+Recipients
+Amazon Nova AI Challenge
+Overview
+Rules
+FAQs
+Teams
+Research collaborations
+Overview
+Carnegie Mellon University
+Columbia University
+Hampton University
+Howard University
+IIT Bombay
+Johns Hopkins University
+Max Planck Society
+MIT
+Tennessee State University
+University of California, Los Angeles
+University of Illinois Urbana-Champaign
+University of Southern California
+University of Texas at Austin
+Virginia Tech
+University of Washington
+Resources
+Code and datasets
+AGI Labs
+Meet the team building useful AI agents.
+Amazon Nova
+Try Amazon’s frontier foundation models.
+Code and datasets
+AGI Labs
+Meet the team building useful AI agents.
+Amazon Nova
+Try Amazon’s frontier foundation models.
+Careers
+Careers
+Explore our open roles.
+Amazon Scholars
+Faculty research opportunities on industry-scale technical challenges.
+Postdoctoral Science Program
+Early-career research opportunities alongside experienced industry scientists.
+Careers
+Explore our open roles.
+Amazon Scholars
+Faculty research opportunities on industry-scale technical challenges.
+Postdoctoral Science Program
+Early-career research opportunities alongside experienced industry scientists.
+Search
+Submit Search
+Publication
+Amazon’s frontier model safety framework
+By
+Amazon
+2025
+Download
+Copy BibTeX
+@Article{Amazon2025,
+ author = {Amazon},
+ title = {Amazon’s frontier model safety framework},
+ year = {2025},
+ url = {https://www.amazon.science/publications/amazons-frontier-model-safety-framework},
+}
+Share
+Share
+Copy link
+Email
+X
+LinkedIn
+Facebook
+Line
+Reddit
+QZone
+Sina Weibo
+WeChat
+WhatsApp
+分享到微信
+x
+Download
+Copy BibTeX
+@Article{Amazon2025,
+ author = {Amazon},
+ title = {Amazon’s frontier model safety framework},
+ year = {2025},
+ url = {https://www.amazon.science/publications/amazons-frontier-model-safety-framework},
+}
+Share
+Share
+Copy link
+Email
+X
+LinkedIn
+Facebook
+Line
+Reddit
+QZone
+Sina Weibo
+WeChat
+WhatsApp
+分享到微信
+x
+At Amazon, we look to our leadership principles every day to guide our decision-making. Our approach to AI development naturally follows from our leadership principle “Success and Scale Bring Broad Responsibility.” As we continue to scale the capabilities of Amazon’s frontier models and democratize access to the benefits of AI, we also take responsibility for mitigating the risks of our technology. Consistent with Amazon’s endorsement of the Korea Frontier AI Safety Commitments, this Framework outlines the protocols we will follow to ensure that frontier models developed by Amazon do not expose critical capabilities that have the potential to create severe risks. At its core, this Framework reflects our commitment that we will not deploy frontier AI models developed by Amazon that exceed specified risk thresholds without appropriate safeguards in place.
+This Framework focuses on severe risks that are unique to frontier AI models as they scale in size and capability and which require specialized evaluation methods and safeguards. Our approach to managing these frontier risks complements Amazon's broader approach to responsible AI, which includes comprehensive practices to control for risks across eight key dimensions.
+This report was published on February 9, 2025.
+Research areas
+Conversational AI
+Tags
+Responsible AI
+Latest news
+Customizing multiturn AI agents with reinforcement learning
+Shreyas Subramanian
+,
+Panpan Xu
+,
+Yawei Wang
+January 13, 2026
+Leveraging existing environment simulators and reward functions based on verifiable ground truth boosts task success rate, even with small models and small training datasets.
+Conversational AI
+Fine-tuning vision-language models on memory-constrained devices
+Rupak Vignesh Swaminathan
+,
+Jing Liu
+,
+Nathan Susanj
+January 8, 2026
+A new hybrid optimization approach allows edge devices to fine-tune vision-language models using only forward passes, achieving up to 7% higher accuracy than existing techniques.
+Machine learning
+The unseen work of building reliable AI agents
+Jason Laster
+January 7, 2026
+"Reinforcement learning gyms" train agents on the many low-level tasks that they must chain together to execute customer requests.
+Machine learning
+Work with us
+See more jobs
+See more jobs
+Sr. Applied Scientist, Workforce Solutions
+CA, BC, Vancouver
+Success in any organization begins with its people and having a comprehensive understanding of our workforce and how we best utilize their unique skills and experience is paramount to our future success. WISE (Workforce Intelligence powered by Scientific Engineering) delivers the scientific and engineering foundation that powers Amazon's enterprise-wide workforce planning ecosystem. Addressing the critical need for precise workforce planning, WISE enables a closed-loop mechanism essential for ensuring Amazon has the right workforce composition, organizational structure, and geographical footprint to support long-term business needs with a sustainable cost structure. We are looking for a Sr. Applied Scientist to join our ML/AI team to work on Advanced Optimization and LLM solutions. You will partner with Software Engineers, Machine Learning Engineers, Data Engineers and other Scientists, TPMs, Product Managers and Senior Management to help create world-class solutions. We're looking for people who are passionate about innovating on behalf of customers, demonstrate a high degree of product ownership, and want to have fun while they make history. You will leverage your knowledge in machine learning, advanced analytics, metrics, reporting, and analytic tooling/languages to analyze and translate the data into meaningful insights. You will have end-to-end ownership of operational and technical aspects of the insights you are building for the business, and will play an integral role in strategic decision-making. Further, you will build solutions leveraging advanced analytics that enable stakeholders to manage the business and make effective decisions, partner with internal teams to identify process and system improvement opportunities. As a tech expert, you will be an advocate for compelling user experiences and will demonstrate the value of automation and data-driven planning tools in the People Experience and Technology space. Key job responsibilities * Engineering execution - drive crisp and timely execution of milestones, consider and advise on key design and technology trade-offs with engineering teams * Priority management - manage diverse requests and dependencies from teams * Process improvements – define, implement and continuously improve delivery and operational efficiency * Stakeholder management – interface with and influence your stakeholders, balancing business needs vs. technical constraints and driving clarity in ambiguous situations * Operational Excellence – monitor metrics and program health, anticipate and clear blockers, manage escalations To be successful on this journey, you love having high standards for yourself and everyone you work with, and always look for opportunities to make our services better.
+Applied Scientist I, Amazon Compliance and Safety Services
+RO, Bucharest
+Amazon's Compliance and Safety Services (CoSS) Team is looking for a smart and creative Applied Scientist to apply and extend state-of-the-art research in NLP, multi-modal modeling, domain adaptation, continuous learning and large language model to join the Applied Science team. At Amazon, we are working to be the most customer-centric company on earth. Millions of customers trust us to ensure a safe shopping experience. This is an exciting and challenging position to drive research that will shape new ML solutions for product compliance and safety around the globe in order to achieve best-in-class, company-wide standards around product assurance. You will research on large amounts of tabular, textual, and product image data from product detail pages, selling partner details and customer feedback, evaluate state-of-the-art algorithms and frameworks, and develop new algorithms to improve safety and compliance mechanisms. You will partner with engineers, technical program managers and product managers to design new ML solutions implemented across the entire Amazon product catalog. Key job responsibilities As an Applied Scientist on our team, you will: - Research and Evaluate state-of-the-art algorithms in NLP, multi-modal modeling, domain adaptation, continuous learning and large language model. - Design new algorithms that improve on the state-of-the-art to drive business impact, such as synthetic data generation, active learning, grounding LLMs for business use cases - Design and plan collection of new labels and audit mechanisms to develop better approaches that will further improve product assurance and customer trust. - Analyze and convey results to stakeholders and contribute to the research and product roadmap. - Collaborate with other scientists, engineers, product managers, and business teams to creatively solve problems, measure and estimate risks, and constructively critique peer research - Consult with engineering teams to design data and modeling pipelines which successfully interface with new and existing software - Publish research publications at internal and external venues. About the team The science team delivers custom state-of-the-art algorithms for image and document understanding. The team specializes in developing machine learning solutions to advance compliance capabilities. Their research contributions span multiple domains including multi-modal modeling, unstructured data matching, text extraction from visual documents, and anomaly detection, with findings regularly published in academic venues.
+Applied Scientist II ML/AI, Fulfillment Planning and Execution Science - Fulfillment Optimization,  SCOT FO - Fulfillment Plannig and Execution (FPX) Science
+CA, BC, Vancouver
+Have you ever wondered how Amazon predicts delivery times and ensures your orders arrive exactly when promised? Have you wondered where all those Amazon semi-trucks on the road are headed? Are you passionate about increasing efficiency and reducing carbon footprint? Does the idea of having worldwide impact on Amazon's multimodal logistics network that includes planes, trucks, and vans sound exciting to you? Are you interested in developing Generative AI solutions using state-of-the-art LLM techniques to revolutionize how Amazon optimizes the fulfillment of millions of customer orders globally with unprecedented scale and precision? If so, then we want to talk with you! Join our team to apply the latest advancements in Generative AI to enhance our capability and speed of decision making. Fulfillment Planning & Execution (FPX) Science team within SCOT- Fulfillment Optimization owns and operates optimization, machine learning, and simulation systems that continually optimize the fulfillment of millions of products across Amazon’s network in the most cost-effective manner, utilizing large scale optimization, advanced machine learning techniques, big data technologies, and scalable distributed software on the cloud that automates and optimizes inventory and shipments to customers under the uncertainty of demand, pricing, and supply. The team has embarked on its Generative AI to build the next-generation AI agents and LLM frameworks to promote efficiency and improve productivity. We’re looking for a passionate, results-oriented, and inventive machine learning scientist who can design, build, and improve models for our outbound transportation planning systems. You will work closely with our product managers and software engineers to disambiguate complex supply chain problems and create ML / AI solutions to solve those problems at scale. You will work independently in an ambiguous environment while collaborating with cross-functional teams to drive forward innovation in the Generative AI space. Key job responsibilities * Design, develop, and evaluate tailored ML/AI, models for solving complex business problems. * Research and apply the latest ML / AI techniques and best practices from both academia and industry. * Identify and implement novel Generative AI use cases to deliver value. * Design and implement Generative AI and LLM solutions to accelerate development and provide intuitive explainability of complex science models. * Develop and implement frameworks for evaluation, validation, and benchmarking AI agents and LLM frameworks. * Think about customers and how to improve the customer delivery experience. * Use analytical techniques to create scalable solutions for business problems. * Work closely with software engineering teams to build model implementations and integrate successful models and algorithms in production systems at large scale. * Establish scalable, efficient, automated processes for large scale data analyses, model development, model validation and model implementation. A day in the life You will have the opportunity to learn how Amazon plans for and executes within its logistics ne twork including Fulfillment Centers, Sort Centers, and Delivery Stations. In this role, you will design and develop Machine Learning / AI models with significant scope, impact, and high visibility. You will focus on designing, developing, and deploying Generative AI solutions at scale that will improve efficiency, increase productivity, accelerate development, automate manual tasks, and deliver value to our internal customers. Your solutions will impact business segments worth many-billions-of-dollars and geographies spanning multiple countries and markets. From day one, you will be working with bar raising scientists, engineers, and designers. You will also collaborate with the broader science community in Amazon to broaden the horizon of your work. Successful candidates must thrive in fast-paced environments, which encourage collaborative and creative problem solving, be able to measure and estimate risks, constructively critique peer research, and align research focuses with the Amazon's strategic needs. We look for individuals who know how to deliver results and show a desire to develop themselves, their colleagues, and their career. About the team FPX Science tackles some of the most mathematically complex challenges in transportation planning and execution space to improve Amazon's operational efficiency worldwide at a scale that is unique to Amazon. We own the long-term and intermediate-term planning of Amazon’s global fulfillment centers and transportation network as well as the short-term network planning and execution that determines the optimal flow of customer orders through Amazon fulfillment network. FPX science team is a group of scientists with different technical backgrounds including Machine Learning and Operations Research, who will collaborate closely with you on your projects. Our team directly supports multiple functional areas across SCOT - Fulfillment Optimization and the research needs of the corresponding product and engineering teams. We disambiguate complex supply chain problems and create innovative data-driven solutions to solve those problems at scale with a mix of science-based techniques including Operations Research, Simulation, Machine Learning, and AI to tackle some of our biggest technical challenges. In addition, we are incorporating the latest advances in Generative AI and LLM techniques in how we design, develop, enhance, and interpret the results of these science models.
+Sr. Applied Scientist, Amazon Leo IDEA
+US, WA, Bellevue
+Amazon LEO is Amazon’s low Earth orbit satellite network. Our mission is to deliver fast, reliable internet connectivity to customers beyond the reach of existing networks. From individual households to schools, hospitals, businesses, and government agencies, Amazon Leo will serve people and organizations operating in locations without reliable connectivity. The Amazon LEO Infrastructure Data Engineering, Analytics, and Science team owns designing, implementing, and operating systems/models that support the optimal demand/capacity planning function. We are looking for a talented scientist to implement LEO's long-term vision and strategy for capacity simulations and network bandwidth optimization. This effort will be instrumental in helping LEO execute on its business plans globally. As one of our valued team members, you will be obsessed with matching our standards for operational excellence with a relentless focus on delivering results. Key job responsibilities In this role, you will: Work cross-functionally with product, business development, and various technical teams (engineering, science, R&D, simulations, etc.) to implement the long-term vision, strategy, and architecture for capacity simulations and inventory optimization. Design and deliver modern, flexible, scalable solutions to complex optimization problems for operating and planning satellite resources. Contribute to short and long terms technical roadmap definition efforts to predict future inventory availability and key operational and financial metrics across the network. Design and deliver systems that can keep up with the rapid pace of optimization improvements and simulating how they interact with each other. Analyze large amounts of satellite and business data to identify simulation and optimization opportunities. Synthesize and communicate insights and recommendations to audiences of varying levels of technical sophistication to drive change across LEO. Export Control Requirement: Due to applicable export control laws and regulations, candidates must be a U.S. citizen or national, U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum.
+Sr. Applied Scientist, Special Projects
+US, WA, Seattle
+Innovators wanted! Are you an entrepreneur? A builder? A dreamer? This role is part of an Amazon Special Projects team that takes the company’s Think Big leadership principle to the limits. If you’re interested in innovating at scale to address big challenges in the world, this is the team for you. As a Sr. Applied Scientist on our team, you will focus on building state-of-the-art ML models for biology. Our team rewards curiosity while maintaining a laser-focus in bringing products to market. Competitive candidates are responsive, flexible, and able to succeed within an open, collaborative, entrepreneurial, startup-like environment. At the forefront of both academic and applied research in this product area, you have the opportunity to work together with a diverse and talented team of scientists, engineers, and product managers and collaborate with other teams. Key job responsibilities - Build, adapt and evaluate ML models for life sciences applications - Collaborate with a cross-functional team of ML scientists, biologists, software engineers and product managers - Mentor junior scientists
+Member of Technical Staff, AGI Autonomy
+US, CA, San Francisco
+Amazon has launched a new research lab in San Francisco to develop foundational capabilities for useful AI agents. We’re enabling practical AI to make our customers more productive, empowered, and fulfilled. In particular, our work combines large language models (LLMs) with reinforcement learning (RL) to solve reasoning, planning, and world modeling in both virtual and physical environments. Our research builds on that of Amazon’s broader AGI organization, which recently introduced Amazon Nova, a new generation of state-of-the-art foundation models (FMs). Our lab is a small, talent-dense team with the resources and scale of Amazon. Each team in the lab has the autonomy to move fast and the long-term commitment to pursue high-risk, high-payoff research. We’re entering an exciting new era where agents can redefine what AI makes possible. We’d love for you to join our lab and build it from the ground up! Key job responsibilities You will contribute directly to AI agent development in an applied research role, including model training, dataset design, and pre- and post-training optimization. You will be hired as a Member of Technical Staff.
+Senior Applied Scientist, Secure 3P Tools
+US, TX, Austin
+Amazon Security is seeking a Senior Applied Scientist to lead GenAI acceleration within the Secure Third Party Tools (S3T) organization. The S3T team has bold ambitions to re-imagine security products that serve Amazon's pace of innovation at our global scale. This role will focus on leveraging large language models and agentic AI to transform third-party security risk management, automate complex vendor assessments, streamline controllership processes, and dramatically reduce assessment cycle times. You will drive builder efficiency and deliver bar-raising security engagements across Amazon. Key job responsibilities Own and drive end-to-end technical vision for large-scoped science initiatives focused on third-party security risk management, independently defining research agendas, success metrics, and multi-quarter roadmaps with minimal oversight. Pioneer transformative approaches to automate third-party security review processes using state-of-the-art large language models, designing intelligent systems for vendor assessment document analysis, security questionnaire automation, risk signal extraction, and compliance decision support. Architect and lead development of advanced GenAI and agentic frameworks including multi-agent orchestration, RAG pipelines, and autonomous workflows purpose-built for third-party risk evaluation, security documentation processing, and scalable vendor assessment at enterprise scale. Build ML-powered risk intelligence capabilities that enhance third-party threat detection, vulnerability classification, and continuous monitoring throughout the vendor lifecycle. Serve as strategic thought partner to senior leadership and business stakeholders, translating complex AI capabilities into high-impact third-party security solutions, influencing investment priorities, and delivering measurable risk reduction and operational efficiency. Partner with Software Engineering and Data Engineering as technical co-owner to deploy production-grade ML solutions that integrate seamlessly with existing third-party risk management workflows and scale across the organization. Mentor and elevate scientists and engineers, establishing best practices for security-focused AI development while advancing the state of the art through applied research and publications. About the team Security is central to maintaining customer trust and delivering delightful customer experiences. At Amazon, our Security organization is designed to drive bar-raising security engagements. Our vision is that Builders raise the Amazon security bar when they use our recommended tools and processes, with no overhead to their business. Diverse Experiences Amazon Security values diverse experiences. Even if you do not meet all of the qualifications and skills listed in the job description, we encourage candidates to apply. If your career is just starting, hasn’t followed a traditional path, or includes alternative experiences, don’t let it stop you from applying. Why Amazon Security? At Amazon, security is central to maintaining customer trust and delivering delightful customer experiences. Our organization is responsible for creating and maintaining a high bar for security across all of Amazon’s products and services. We offer talented security professionals the chance to accelerate their careers with opportunities to build experience in a wide variety of areas including cloud, devices, retail, entertainment, healthcare, operations, and physical stores. Inclusive Team Culture In Amazon Security, it’s in our nature to learn and be curious. Ongoing DEI events and learning experiences inspire us to continue learning and to embrace our uniqueness. Addressing the toughest security challenges requires that we seek out and celebrate a diversity of ideas, perspectives, and voices. Training & Career Growth We’re continuously raising our performance bar as we strive to become Earth’s Best Employer. That’s why you’ll find endless knowledge-sharing, training, and other career-advancing resources here to help you develop into a better-rounded professional. Work/Life Balance We value work-life harmony. Achieving success at work should never come at the expense of sacrifices at home, which is why flexible work hours and arrangements are part of our culture. When we feel supported in the workplace and at home, there’s nothing we can’t achieve.
+PhD Economist Intern, Japan Stores Econ
+JP, 13, Tokyo
+Elevate Your Economic Research at the Forefront of Global Retail Innovation We're seeking a brilliant economics researcher to join our dynamic team in Tokyo, where your analytical skills will drive transformative insights across Amazon's global retail ecosystem. As an intern, you'll collaborate with world-class economists, data scientists, and business leaders to solve complex challenges that shape the future of e-commerce. A day in the life Your day will be filled with intellectual exploration and impactful problem-solving. You'll dive deep into large-scale datasets, develop sophisticated econometric models, and translate complex economic research into actionable business strategies. Expect to engage in collaborative discussions, leverage modern analytical tools, and contribute to projects that have real-world implications for our global customers.
+Applied Scientist II, AWS Just-Walk-Out Science Team
+US, WA, Seattle
+As part of the AWS Solutions organization, we have a vision to provide business applications, leveraging Amazon’s unique experience and expertise, that are used by millions of companies worldwide to manage day-to-day operations. We will accomplish this by accelerating our customers’ businesses through delivery of intuitive and differentiated technology solutions that solve enduring business challenges. We blend vision with curiosity and Amazon’s real-world experience to build opinionated, turnkey solutions. Where customers prefer to buy over build, we become their trusted partner with solutions that are no-brainers to buy and easy to use. The Team Just Walk Out (JWO) is a new kind of store with no lines and no checkout—you just grab and go! Customers simply use the Amazon Go app to enter the store, take what they want from our selection of fresh, delicious meals and grocery essentials, and go! Our checkout-free shopping experience is made possible by our Just Walk Out Technology, which automatically detects when products are taken from or returned to the shelves and keeps track of them in a virtual cart. When you’re done shopping, you can just leave the store. Shortly after, we’ll charge your account and send you a receipt. Check it out at amazon.com/go. Designed and custom-built by Amazonians, our Just Walk Out Technology uses a variety of technologies including computer vision, sensor fusion, and advanced machine learning. Innovation is part of our DNA! Our goal is to be Earths’ most customer centric company and we are just getting started. We need people who want to join an ambitious program that continues to push the state of the art in computer vision, machine learning, distributed systems and hardware design. Key job responsibilities Everyone on the team needs to be entrepreneurial, wear many hats and work in a highly collaborative environment that’s more startup than big company. We’ll need to tackle problems that span a variety of domains: computer vision, image recognition, machine learning, real-time and distributed systems. As an Applied Scientist, you will help solve a variety of technical challenges and mentor other scientists. You will tackle challenging, novel situations every day and given the size of this initiative, you’ll have the opportunity to work with multiple technical teams at Amazon in different locations. You should be comfortable with a degree of ambiguity that’s higher than most projects and relish the idea of solving problems that, frankly, haven’t been solved at scale before - anywhere. Along the way, we guarantee that you’ll learn a ton, have fun and make a positive impact on millions of people. A key focus of this role will be developing and implementing advanced visual reasoning systems that can understand complex spatial relationships and object interactions in real-time. You'll work on designing autonomous AI agents that can make intelligent decisions based on visual inputs, understand customer behavior patterns, and adapt to dynamic retail environments. This includes developing systems that can perform complex scene understanding, reason about object permanence, and predict customer intentions through visual cues. About the team AWS Solutions As part of the AWS solutions organization, we have a vision to provide business applications, leveraging Amazon's unique experience and expertise, that are used by millions of companies worldwide to manage day-to-day operations. We will accomplish this by accelerating our customers' businesses through delivery of intuitive and differentiated technology solutions that solve enduring business challenges. we blend vision with curiosity and Amazon's real-world experience to build opinionated, turnkey solutions. Where customers prefer to buy over build, we become their trusted partner with solutions that are no-brainers to buy and easy to use. About AWS Diverse Experiences AWS values diverse experiences. Even if you do not meet all of the preferred qualifications and skills listed in the job description, we encourage candidates to apply. If your career is just starting, hasn’t followed a traditional path, or includes alternative experiences, don’t let it stop you from applying. Why AWS? Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform. We pioneered cloud computing and never stopped innovating — that’s why customers from the most successful startups to Global 500 companies trust our robust suite of products and services to power their businesses. Inclusive Team Culture AWS values curiosity and connection. Our employee-led and company-sponsored affinity groups promote inclusion and empower our people to take pride in what makes us unique. Our inclusion events foster stronger, more collaborative teams. Our continual innovation is fueled by the bold ideas, fresh perspectives, and passionate voices our teams bring to everything we do. Mentorship & Career Growth We’re continuously raising our performance bar as we strive to become Earth’s Best Employer. That’s why you’ll find endless knowledge-sharing, mentorship and other career-advancing resources here to help you develop into a better-rounded professional. Work/Life Balance We value work-life harmony. Achieving success at work should never come at the expense of sacrifices at home, which is why we strive for flexibility as part of our working culture. When we feel supported in the workplace and at home, there’s nothing we can’t achieve.
+Machine Learning Engineer, WWPS ProServe Data and Machine Learning
+US, VA, Herndon
+The Amazon Web Services Professional Services (ProServe) team is seeking a skilled Machine Learning Engineer to join our team at Amazon Web Services (AWS). Are you looking to work at the forefront of Machine Learning and AI? Would you be excited to apply Generative AI algorithms to solve real world problems with significant impact? In this role, you'll work directly with customers to design, evangelize, implement, and scale AI/ML solutions that meet their technical requirements and business objectives. You'll be a key player in driving customer success through their AI transformation journey, providing deep expertise in machine learning, generative AI, and best practices throughout the project lifecycle. As a Machine Learning Engineer within the AWS Professional Services organization, you will be proficient in architecting complex, scalable, and secure machine learning solutions tailored to meet the specific needs of each customer. You'll help customers imagine and scope the use cases that will create the greatest value for their businesses, select and train and fine tune the right models, and define paths to navigate technical or business challenges. Working closely with stakeholders, you'll assess current data infrastructure, develop proof-of-concepts, and propose effective strategies for implementing AI and generative AI solutions at scale. You will design and run experiments, research new algorithms, and find new ways of optimizing risk, profitability, and customer experience. The AWS Professional Services organization is a global team of experts that help customers realize their desired business outcomes when using the AWS Cloud. We work together with customer teams and the AWS Partner Network (APN) to execute enterprise cloud computing initiatives. Our team provides assistance through a collection of offerings which help customers achieve specific outcomes related to enterprise cloud adoption. We also deliver focused guidance through our global specialty practices, which cover a variety of solutions, technologies, and industries. This position requires that the candidate selected must currently possess and maintain an active TS/SCI security clearance with polygraph. Key job responsibilities - Designing and implementing complex, scalable, and secure AI/ML solutions on AWS tailored to customer needs, including selecting and fine-tuning appropriate models for specific use cases - Developing and deploying machine learning models and generative AI applications that solve real-world business problems, conducting experiments and optimizing for performance at scale - Collaborating with customer stakeholders to identify high-value AI/ML use cases, gather requirements, and propose effective strategies for implementing machine learning and generative AI solutions - Providing technical guidance on applying AI, machine learning, and generative AI responsibly and cost-efficiently, troubleshooting throughout project delivery and ensuring adherence to best practices - Acting as a trusted advisor to customers on the latest advancements in AI/ML, emerging technologies, and innovative approaches to leveraging diverse data sources for maximum business impact - Sharing knowledge within the organization through mentoring, training, creating reusable AI/ML artifacts, and working with team members to prototype new technologies and evaluate technical feasibility About the team Diverse Experiences Amazon values diverse experiences. Even if you do not meet all of the preferred qualifications and skills listed in the job description, we encourage candidates to apply. If your career is just starting, hasn’t followed a traditional path, or includes alternative experiences, don’t let it stop you from applying. Why AWS Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform. We pioneered cloud computing and never stopped innovating — that’s why customers from the most successful startups to Global 500 companies trust our robust suite of products and services to power their businesses. Work/Life Balance We value work-life harmony. Achieving success at work should never come at the expense of sacrifices at home, which is why we strive for flexibility as part of our working culture. When we feel supported in the workplace and at home, there’s nothing we can’t achieve in the cloud. Inclusive Team Culture Here at AWS, it’s in our nature to learn and be curious. Our employee-led affinity groups foster a culture of inclusion that empower us to be proud of our differences. Mentorship and Career Growth We’re continuously raising our performance bar as we strive to become Earth’s Best Employer. That’s why you’ll find endless knowledge-sharing, mentorship and other career-advancing resources here to help you develop into a better-rounded professional.
+See more jobs
+About
+Research areas
+Blog
+Publications
+Conferences
+Code and datasets
+Academia
+Amazon News
+Amazon Developer
+Amazon Web Services
+Awards and recognitions
+Newsletter
+Careers
+FAQs
+Get more from Amazon Science
+Subscribe to our monthly newsletter
+Amazon.com
+|
+Conditions of Use
+|
+Privacy
+| © 1996-2026 Amazon.com, Inc. or its affiliates
+Social
+twitter
+instagram
+youtube
+facebook
+linkedin
+github
+rss
