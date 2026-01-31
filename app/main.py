@@ -535,7 +535,7 @@ with st.sidebar:
         default=[]
     )
 
-tabs = st.tabs(["🎯 Risk Assessment", "📊 Analytics Dashboard", "🗺️ Compliance Mapping", "📜 Audit Trail", "ℹ️ Methodology"])
+tabs = st.tabs(["🎯 Risk Assessment", "🤖 AI Analysis", "📊 Analytics Dashboard", "🗺️ Compliance Mapping", "📜 Audit Trail", "ℹ️ Methodology"])
 
 with tabs[0]:
     col_gauge, col_dims = st.columns([1, 2])
@@ -685,6 +685,154 @@ with tabs[0]:
                     st.warning(gap)
 
 with tabs[1]:
+    st.markdown("### 🤖 AI-Powered Analysis")
+    st.markdown("Use OpenRouter AI models to analyze risks and generate insights")
+    
+    try:
+        from utils.openrouter_client import (
+            AVAILABLE_MODELS, DEFAULT_MODEL, 
+            analyze_risk_gaps, generate_compliance_report, explain_risk_tier
+        )
+        openrouter_available = True
+    except Exception as e:
+        openrouter_available = False
+        st.error(f"OpenRouter not configured: {e}")
+    
+    if openrouter_available:
+        ai_col1, ai_col2 = st.columns([1, 2])
+        
+        with ai_col1:
+            st.markdown("#### ⚙️ AI Settings")
+            selected_ai_model = st.selectbox(
+                "Select AI Model",
+                options=list(AVAILABLE_MODELS.keys()),
+                format_func=lambda x: AVAILABLE_MODELS[x],
+                index=3,
+                help="Choose the AI model for analysis"
+            )
+            
+            st.markdown("---")
+            st.markdown("#### 📋 Quick Actions")
+            
+            action = st.radio(
+                "Analysis Type",
+                ["Gap Analysis", "Compliance Report", "Tier Explanation"],
+                help="Select the type of AI analysis to perform"
+            )
+        
+        with ai_col2:
+            if action == "Gap Analysis":
+                st.markdown("#### 🔍 Risk Gap Analysis")
+                st.markdown("Analyze discrepancies across frameworks for the configured model")
+                
+                if st.button("🚀 Run Gap Analysis", type="primary", key="gap_btn"):
+                    with st.spinner("Analyzing with AI..."):
+                        model_data = {
+                            "name": model_name,
+                            "training_compute": compute_input,
+                            "parameters_billions": parameters,
+                            "capabilities": capabilities,
+                            "evaluations": evaluations
+                        }
+                        
+                        framework_data = {}
+                        for fw in matcher.frameworks[:5]:
+                            fw_name = fw.get('framework_name', fw.get('organization'))
+                            framework_data[fw_name] = {
+                                "tiers": [t.get('tier_name') for t in fw.get('risk_tiers', [])],
+                                "thresholds": [t.get('compute_threshold_flops') for t in fw.get('risk_tiers', [])]
+                            }
+                        
+                        try:
+                            result = analyze_risk_gaps(model_data, framework_data, model=selected_ai_model)
+                            
+                            st.markdown(f"""
+                            <div class="metric-card">
+                                <h4 style="color: #00d4ff;">📊 Analysis Results</h4>
+                                <p style="color: #e8eaed;"><strong>Summary:</strong> {result.get('risk_summary', 'N/A')}</p>
+                                <p style="color: #9ca3af;"><em>Confidence: {result.get('confidence_score', 'N/A')}%</em></p>
+                            </div>
+                            """, unsafe_allow_html=True)
+                            
+                            if result.get('primary_concerns'):
+                                st.markdown("**Primary Concerns:**")
+                                for concern in result.get('primary_concerns', []):
+                                    st.markdown(f"- ⚠️ {concern}")
+                            
+                            if result.get('recommended_actions'):
+                                st.markdown("**Recommended Actions:**")
+                                for action_item in result.get('recommended_actions', []):
+                                    st.markdown(f"- ✅ {action_item}")
+                                    
+                        except Exception as e:
+                            st.error(f"Analysis failed: {e}")
+            
+            elif action == "Compliance Report":
+                st.markdown("#### 📄 Generate Compliance Report")
+                st.markdown("Generate a detailed compliance report for the configured model")
+                
+                if st.button("📝 Generate Report", type="primary", key="report_btn"):
+                    with st.spinner("Generating report with AI..."):
+                        try:
+                            model_obj = ModelSpecs(
+                                name=model_name,
+                                training_compute_flops=training_compute,
+                                parameters=parameters * 1e9,
+                                passed_evaluations=evaluations,
+                                capabilities=capabilities
+                            )
+                            assessment = matcher.assess_model(model_obj)
+                            
+                            report = generate_compliance_report(
+                                model_name,
+                                {
+                                    "framework_assessments": assessment.framework_assessments,
+                                    "eu_compliant": assessment.eu_compliant,
+                                    "eu_requirements": assessment.eu_requirements,
+                                    "gaps": assessment.gaps_identified,
+                                    "compute": compute_input,
+                                    "parameters": parameters,
+                                    "capabilities": capabilities
+                                },
+                                model=selected_ai_model
+                            )
+                            
+                            st.markdown(report)
+                            
+                            st.download_button(
+                                "📥 Download Report",
+                                report,
+                                file_name=f"{model_name}_compliance_report.md",
+                                mime="text/markdown"
+                            )
+                        except Exception as e:
+                            st.error(f"Report generation failed: {e}")
+            
+            else:
+                st.markdown("#### 📖 Risk Tier Explanation")
+                st.markdown("Get AI-powered explanations of specific risk tiers")
+                
+                tier_col1, tier_col2 = st.columns(2)
+                with tier_col1:
+                    tier_name = st.text_input("Tier Name", "ASL-3", help="e.g., ASL-3, CCL-2, High")
+                with tier_col2:
+                    framework_name = st.text_input("Framework", "Anthropic RSP", help="e.g., Anthropic RSP, DeepMind FSF")
+                
+                if st.button("💡 Explain Tier", type="primary", key="explain_btn"):
+                    with st.spinner("Getting explanation..."):
+                        try:
+                            explanation = explain_risk_tier(tier_name, framework_name, model=selected_ai_model)
+                            
+                            st.markdown(f"""
+                            <div class="metric-card">
+                                <h4 style="color: #00d4ff;">📖 {tier_name} in {framework_name}</h4>
+                                <p style="color: #e8eaed;">{explanation}</p>
+                            </div>
+                            """, unsafe_allow_html=True)
+                        except Exception as e:
+                            st.error(f"Explanation failed: {e}")
+
+with tabs[2]:
     st.markdown("### 📊 Analytics Dashboard")
     
     chart_cols = st.columns(2)
@@ -767,7 +915,7 @@ with tabs[1]:
     )
     st.plotly_chart(fig, use_container_width=True)
 
-with tabs[2]:
+with tabs[3]:
     st.markdown("### 🗺️ Governance Compliance Mapping")
     
     compliance_cols = st.columns(3)
@@ -830,7 +978,7 @@ with tabs[2]:
             color = "#00ff88" if met else "#ff3366"
             st.markdown(f"<span style='color: {color};'>{icon}</span> {req}", unsafe_allow_html=True)
 
-with tabs[3]:
+with tabs[4]:
     st.markdown("### 📜 Audit Trail")
     st.markdown("Real-time log of all assessment activities")
     
@@ -858,7 +1006,7 @@ with tabs[3]:
             st.session_state.audit_log = []
             st.rerun()
 
-with tabs[4]:
+with tabs[5]:
     st.markdown("### ℹ️ Methodology & Data Sources")
     
     st.markdown("""
