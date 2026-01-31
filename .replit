@@ -17,14 +17,6 @@ deploymentTarget = "cloudrun"
 [agent]
 expertMode = true
 
-[[ports]]
-localPort = 5000
-externalPort = 80
-
-[[ports]]
-localPort = 8501
-externalPort = 80
-
 [workflows]
 runButton = "Project"
 
@@ -48,3 +40,7 @@ waitForPort = 5000
 
 [workflows.workflow.metadata]
 outputType = "webview"
+
+[[ports]]
+localPort = 5000
+externalPort = 80
