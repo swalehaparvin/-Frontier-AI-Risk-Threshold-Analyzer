@@ -406,13 +406,67 @@ with st.sidebar:
     st.markdown("---")
     
     st.markdown("#### 📊 Model Configuration")
-    model_name = st.text_input("Model Identifier", "GPT-5-FRONTIER", key="model_name")
     
-    compute_input = st.text_input(
-        "Training Compute (FLOPS)",
-        "1e25",
-        help="Scientific notation: 1e25 = 10²⁵"
+    PRESET_MODELS = {
+        "Custom Model": {"compute": "1e25", "params": 175.0, "capabilities": []},
+        "── OpenAI ──": None,
+        "GPT-4 Turbo": {"compute": "2.1e25", "params": 1760.0, "capabilities": []},
+        "GPT-4o": {"compute": "5e24", "params": 200.0, "capabilities": []},
+        "GPT-4o Mini": {"compute": "1e24", "params": 8.0, "capabilities": []},
+        "o1": {"compute": "3e25", "params": 300.0, "capabilities": ["Advanced persuasion"]},
+        "o1-mini": {"compute": "5e24", "params": 100.0, "capabilities": []},
+        "o3": {"compute": "1e26", "params": 500.0, "capabilities": ["Advanced persuasion", "Autonomous replication"]},
+        "── Anthropic ──": None,
+        "Claude 3.5 Sonnet": {"compute": "1e25", "params": 175.0, "capabilities": []},
+        "Claude 3 Opus": {"compute": "2e25", "params": 350.0, "capabilities": []},
+        "Claude 3.5 Haiku": {"compute": "3e24", "params": 20.0, "capabilities": []},
+        "── Google ──": None,
+        "Gemini 2.0 Flash": {"compute": "8e24", "params": 150.0, "capabilities": []},
+        "Gemini 1.5 Pro": {"compute": "1.5e25", "params": 540.0, "capabilities": []},
+        "Gemini Ultra": {"compute": "5e25", "params": 1000.0, "capabilities": ["Advanced persuasion"]},
+        "── Meta ──": None,
+        "Llama 3.1 405B": {"compute": "4e25", "params": 405.0, "capabilities": []},
+        "Llama 3.1 70B": {"compute": "7e24", "params": 70.0, "capabilities": []},
+        "Llama 3.2 90B": {"compute": "1e25", "params": 90.0, "capabilities": []},
+        "── Mistral ──": None,
+        "Mistral Large 2": {"compute": "8e24", "params": 123.0, "capabilities": []},
+        "Mixtral 8x22B": {"compute": "5e24", "params": 141.0, "capabilities": []},
+        "── xAI ──": None,
+        "Grok-2": {"compute": "2e25", "params": 314.0, "capabilities": []},
+        "Grok-3": {"compute": "1e26", "params": 500.0, "capabilities": ["Cyber offense"]},
+        "── DeepSeek ──": None,
+        "DeepSeek-V3": {"compute": "2.8e24", "params": 671.0, "capabilities": []},
+        "DeepSeek-R1": {"compute": "5e24", "params": 671.0, "capabilities": []},
+        "── Cohere ──": None,
+        "Command R+": {"compute": "3e24", "params": 104.0, "capabilities": []},
+    }
+    
+    model_options = list(PRESET_MODELS.keys())
+    selected_preset = st.selectbox(
+        "Select Model Preset",
+        model_options,
+        index=0,
+        help="Choose a preset or select 'Custom Model' to enter manually"
     )
+    
+    is_separator = PRESET_MODELS.get(selected_preset) is None
+    preset = PRESET_MODELS.get(selected_preset) or {"compute": "1e25", "params": 175.0, "capabilities": []}
+    
+    if selected_preset == "Custom Model" or is_separator:
+        model_name = st.text_input("Model Identifier", "GPT-5-FRONTIER", key="model_name")
+    else:
+        model_name = selected_preset
+        st.markdown(f"**Model:** `{model_name}`")
+    
+    if selected_preset == "Custom Model" or is_separator:
+        compute_input = st.text_input(
+            "Training Compute (FLOPS)",
+            preset["compute"],
+            help="Scientific notation: 1e25 = 10²⁵"
+        )
+    else:
+        compute_input = preset["compute"]
+        st.markdown(f"**Compute:** `{compute_input}` FLOPS")
     
     try:
         training_compute = float(compute_input)
@@ -420,13 +474,17 @@ with st.sidebar:
         st.error("Invalid format")
         training_compute = 1e25
     
-    parameters = st.slider(
-        "Parameters (Billions)",
-        min_value=1.0,
-        max_value=2000.0,
-        value=175.0,
-        step=1.0
-    )
+    if selected_preset == "Custom Model" or is_separator:
+        parameters = st.slider(
+            "Parameters (Billions)",
+            min_value=1.0,
+            max_value=2000.0,
+            value=preset["params"],
+            step=1.0
+        )
+    else:
+        parameters = preset["params"]
+        st.markdown(f"**Parameters:** `{parameters}B`")
     
     st.markdown("---")
     st.markdown("#### 🎚️ Risk Thresholds")
