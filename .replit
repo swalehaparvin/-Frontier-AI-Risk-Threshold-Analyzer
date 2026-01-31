@@ -18,11 +18,11 @@ deploymentTarget = "cloudrun"
 expertMode = true
 
 [[ports]]
-localPort = 8501
+localPort = 5000
 externalPort = 80
 
 [[ports]]
-localPort = 5000
+localPort = 8501
 externalPort = 80
 
 [workflows]
