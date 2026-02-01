@@ -3,6 +3,7 @@ modules = ["python-3.11"]
 
 [nix]
 channel = "stable-25_05"
+packages = ["glibcLocales", "libxcrypt"]
 
 [unitTest]
 language = "python3"
@@ -16,6 +17,7 @@ deploymentTarget = "autoscale"
 
 [agent]
 expertMode = true
+integrations = ["github:1.0.0"]
 
 [workflows]
 runButton = "Project"
